@@ -3,20 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Day 5 Assn2</title>
-  <link rel="stylesheet" href="multi.css">
+  <title>Week 2 Day 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <div class="search-container">
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search">
-        <button type="search"><img src="search_icon.png" width="50" height="15"Search></button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li> 
+        </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
+  </nav>
+
+  <div class="jumbotron-fluid text-center">
+    <h1 class="animated fadeInDown"> TTS Austin Boot Camp</h1>
+</div><br><br>
+<div class="container-fluid mission">
+  <div class="row">
+    <h3> Here at TSS Coding Bootcamp we are passionate about serving the best coding you'll ever done.
+    <br> Our staff are self-described good tech tools with impeccable technique.
+    <br> Stop by today and experience with Good Codding frameworks. </h3>
+  </div> 
+</div>
+<div class="container features">
+  <div class="row">
+      <div class="col-xs-12 col-sm-4">
+          <img class="img-fluid" src="tts1.png">
+        <p> The freshest locally sourced coffee. Organic and Fair Trade certified</p>	
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <img class="img-fluid" src="http://www.techtalentsouth.com/hubfs/social-suggested-images/cog%20first%20day%20phx.jpg">
+        <p> A perfect environment to meet with a friend or be alone and get work done.</p>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+        <img class="img-fluid" src="https://f.hubspotusercontent40.net/hub/2577343/hubfs/shutterstock_1626375442.jpg?width=13244&name=shutterstock_1626375442.jpg">
+        <p> Quality hand-crafted espresso shots pulled with the greatest of care.</p>
+    </div>
   </div>
+</div>
+
+<footer class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">TTS Austin Coding bootcamp                 (512)555-3322 </div>
+    <div class="col-md-4">
+      <ul class="nav nav-pills">
+        <li><a href="#">Contact Us &#124; </a></li>
+        <li><a href="#">Get Support &#124; </a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <p class="text-right"><a href="#">Follow Us</a></p>
+    </div>
+  </div>
+</footer>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 </body>
 </html>
